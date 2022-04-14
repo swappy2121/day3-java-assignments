@@ -13,9 +13,11 @@ public class Switch_Case_Statement {
         switch ((int)empCheck) {
             case IS_FULL_TIME;
                empHrs = 8;
+               break;
             case IS_PART_TIME;
                empHrs = 4;
-            default;
+               break;
+            default:
                empHrs = 0;
 
         }
